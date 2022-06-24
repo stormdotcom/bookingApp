@@ -1,6 +1,9 @@
-###A movie booking app
-#a sample
+### A movie booking app
 
-#features
+# a sample
+
+# features
+
 -login-register
+
 -bookticket
