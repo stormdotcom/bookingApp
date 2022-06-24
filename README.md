@@ -1,6 +1,6 @@
-### A movie booking app
+# movie booking app
 
-# a sample
+### a sample
 
 # features
 
