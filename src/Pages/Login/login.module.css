@@ -1,0 +1,8 @@
+.loginBox {
+    border-radius: 25%;
+    padding: 10px;
+    border: solid 1px black;
+    flex-direction: 'column';
+    justify-content: space-between;
+    width: 20%;
+}

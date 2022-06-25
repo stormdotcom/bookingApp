@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { login } from '../../api/api';
-import { validateLoginCred } from '../../utlis/validate';
+import {  validateSignUpCred } from '../../utlis/validate';
 
 const wrapperDiv = {display: 'flex', backgroundColor: 'yellow', width: '100%', height: '100vh',
 justifyContent: 'center', alignItems:'center', textAlign: 'center', flexDirection: 'column' }

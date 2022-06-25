@@ -9,7 +9,16 @@ const requestOptionsPOST = {
 }
 
 export const login = async (formData)=> {
-    const body = JSON.stringify(formData)
-    const response = await fetch(baseURL+'/auth/login', {...requestOptionsPOST, body})
-    console.log(response)
+    try {
+        const body = JSON.stringify(formData)
+        const response = await fetch(baseURL+'/auth/login', {...requestOptionsPOST, body})
+        return response
+    } catch (exception) {
+        console.log(exception)
+        return {
+            error: true,
+            message:exception.response?.data,
+        }
+    }
+
 }
